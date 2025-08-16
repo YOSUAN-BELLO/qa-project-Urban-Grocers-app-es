@@ -1,5 +1,20 @@
-.pytest/
-venv/
-.idea/
-.pytest_cache/
+# Archivos de caché de Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.env/
+
+# Archivos de configuración locales
+*.log
+*.env
+
+# Configuración de IDE (PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Otros
+.DS_Store
